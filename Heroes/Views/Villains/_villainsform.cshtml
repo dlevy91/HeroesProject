@@ -1,0 +1,19 @@
+@model Heroes.Models.VillainsModel
+
+<div class = "form-group">
+    @Html.LabelFor(v => v.villainName)
+    @Html.TextBoxFor(v => v.villainName, new {@class = "form-control"})
+    @Html.ValidationMessageFor(v => v.villainName)
+</div>
+
+<div class = "form-group">
+    @Html.LabelFor(v => v.power)
+    @Html.TextBoxFor(v => v.power, new {@class = "form-control"})
+    @Html.ValidationMessageFor(v => v.power)
+</div>
+
+<div class = "form-group">
+    @Html.LabelFor(v => v.howToReach)
+    @Html.TextBoxFor(v => v.howToReach, new {@class = "form-control"})
+    @Html.ValidationMessageFor(v => v.howToReach)
+</div>

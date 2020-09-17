@@ -1,0 +1,19 @@
+@model Heroes.Models.VillainsModel
+
+<div class="jumbotron">
+  <h1 class="display-4">@Model.villainName, you're about to delete your membership...</h1>
+  <p class="lead">Is this because of mind control? Please don't go!</p>
+  <hr class="my-4">
+  <p class="lead">
+
+
+    <a asp-controller="Villains" asp-action="DeleteVillain" asp-route-villainID = "@Model.id">
+        <button class="btn btn-outline-danger" id="newBtn">Delete</button>
+    </a>
+
+    <a asp-controller="Villains" asp-action="DisplayVillain" asp-route-villainID = "@Model.id">
+        <button class="btn btn-outline-info" id="newBtn">Retreat</button>
+    </a>
+
+  </p>
+</div>

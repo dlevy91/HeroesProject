@@ -1,0 +1,12 @@
+@model Heroes.DAO.HeroDbContext
+
+<h1>Welcome Hero!</h1>
+
+@foreach (HeroesModel h in @Model.heroes)
+{
+    <partial name = "_heroesview" model = "@h" />
+
+    <a asp-controller="Heroes" asp-action="DisplayHero" asp-route-heroID = "@h.id">
+        <button class = "btn btn-outline-primary" id="newBtn">Details</button>
+    </a>
+}

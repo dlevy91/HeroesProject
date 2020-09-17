@@ -1,0 +1,13 @@
+@model Heroes.Models.HeroesModel
+
+<h1>@Model.heroName Details</h1>
+
+<partial name = "_heroesview" model = "@Model" />
+
+<a asp-controller="Heroes" asp-action="UpdateHeroForm" asp-route-heroID = "@Model.id">
+    <button class = "btn btn-outline-warning" id="newBtn">Edit</button>
+</a>
+
+<a asp-controller="Heroes" asp-action="DeleteHeroConf" asp-route-heroID = "@Model.id">
+    <button class = "btn btn-outline-danger" id="newBtn">Delete</button>
+</a>

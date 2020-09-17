@@ -1,0 +1,10 @@
+@model Heroes.Models.HeroesModel
+
+<h1>Enter Your Information Hero</h1>
+
+@using (@Html.BeginForm("AddHero", "Heroes"))
+{
+    <partial name = "_heroesform" model = "@Model" />
+
+    <button type = "submit" class ="btn btn-outline-success" id="newBtn">Submit</button>
+}
