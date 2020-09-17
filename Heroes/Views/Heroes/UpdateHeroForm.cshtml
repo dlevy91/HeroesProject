@@ -5,6 +5,10 @@
 @using (@Html.BeginForm("UpdateHero", "Heroes"))
 {
     <partial name = "_heroesform" model = "@Model" />
-
+    <div>
+        @Html.HiddenFor(h => h.id)
+    </div>
+    
     <button type = "submit" class ="btn btn-outline-success" id="newBtn">Submit</button>
+    
 }

@@ -53,7 +53,7 @@ namespace Heroes
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Heroes}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

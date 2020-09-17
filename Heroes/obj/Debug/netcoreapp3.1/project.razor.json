@@ -14447,11 +14447,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\student\\Code_School\\Projects\\HeroesProject\\Heroes\\Views\\Heroes\\Index.cshtml",
-      "TargetPath": "Views\\Heroes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\student\\Code_School\\Projects\\HeroesProject\\Heroes\\Views\\Villains\\_villainsview.cshtml",
       "TargetPath": "Views\\Villains\\_villainsview.cshtml",
       "FileKind": "mvc"
