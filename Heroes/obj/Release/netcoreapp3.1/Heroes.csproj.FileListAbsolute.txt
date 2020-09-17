@@ -364,7 +364,6 @@ C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreap
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\DeleteHeroConf.cshtml.g.cs
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\DisplayAllHeroes.cshtml.g.cs
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\DisplayHero.cshtml.g.cs
-C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\Index.cshtml.g.cs
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\UpdateHeroForm.cshtml.g.cs
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\_heroesform.cshtml.g.cs
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Razor\Views\Heroes\_heroesview.cshtml.g.cs
@@ -391,3 +390,8 @@ C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreap
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Heroes.dll
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Heroes.pdb
 C:\Users\student\Code_School\Projects\HeroesProject\Heroes\obj\Release\netcoreapp3.1\Heroes.genruntimeconfig.cache
+C:\Users\student\Code_School\Projects\HeroesProject\Heroes\bin\Release\netcoreapp3.1\publish\web.config
+C:\Users\student\Code_School\Projects\HeroesProject\Heroes\bin\Release\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\student\Code_School\Projects\HeroesProject\Heroes\bin\Release\netcoreapp3.1\publish\appsettings.json
+C:\Users\student\Code_School\Projects\HeroesProject\Heroes\bin\Release\netcoreapp3.1\publish\Heroes.deps.json
+C:\Users\student\Code_School\Projects\HeroesProject\Heroes\bin\Release\netcoreapp3.1\publish\Heroes.runtimeconfig.json
